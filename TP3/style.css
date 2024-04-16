@@ -16,7 +16,7 @@ p a[href]{
 article p a[href]{
     outline: 1px solid #333 ;
 }
-p.fuente.parrafo a{
+p.fuente.parrafo a[href]{
     opacity: 100% ;
 }
 html body p.fuente.parrafo{
