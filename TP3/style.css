@@ -20,7 +20,7 @@ p.fuente.parrafo a[href]{
     opacity: 100% ;
 }
 html body p.fuente.parrafo{
-    color:#000 !important;
+    color:#000;
 }
 .complicado{
     font-weight: 700 ;
