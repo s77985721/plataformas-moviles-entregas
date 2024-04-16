@@ -1,0 +1,29 @@
+ html p{
+    font-family: serif;
+}
+.titulo{
+    text-align: center;
+}
+#primer-parrafo{
+    color:#cee
+}
+p#primer-parrafo em{
+    color:#933 ;
+}
+p a[href]{
+    outline: 1px solid #333 ;
+}
+article p a[href]{
+    outline: 1px solid #333 ;
+}
+p.fuente.parrafo a{
+    opacity: 100% ;
+}
+html body p.fuente.parrafo{
+    color:#000 !important;
+}
+.complicado{
+    font-weight: 700 ;
+    color:#c62 !important;
+
+}
