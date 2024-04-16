@@ -1,11 +1,11 @@
- html p{
+html p{
     font-family: serif;
 }
 .titulo{
     text-align: center;
 }
 #contenedor #primer-parrafo{
-    background-color:#cee ;
+    background-color:#cee
 }
 p#primer-parrafo em{
     color:#933 ;
@@ -16,11 +16,8 @@ p a[href]{
 article p a[href]{
     outline: 1px solid #333 ;
 }
-p.fuente.parrafo a[href]{
-    opacity: 100% ;
-}
 html body p.fuente.parrafo{
-    color:#000;
+    opacity: 100% ;
 }
 .complicado{
     font-weight: 700 ;
