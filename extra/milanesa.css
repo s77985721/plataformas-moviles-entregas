@@ -1,0 +1,48 @@
+*{
+    margin= 0%;
+    background-size: 100%;
+    color:aliceblue;
+ }
+ .pppp{
+position: fixed;
+    height: auto;
+    width: 100%;
+    z-index: -10;
+ }
+ .cccc{
+    display:none;
+ }
+ h1{
+    font-size: 50px;
+    text-align: center;
+ }
+ h2{
+    text-align: center;
+ }
+ ul{
+    font-size: 30px;
+ }
+ @media only screen and (max-width: 800px) {
+    .pppp{
+        display: none;
+    }
+    .cccc{
+        margin: 0%;
+        display: flex;
+        position: fixed;
+        height: 100%;
+        z-index: -10;
+    }
+    .resolucion {
+      width: 99%;
+      text-align: center;
+  }
+  
+  
+  /**Movil**/
+  
+  @media (max-width: 767px) {
+      .desktop {
+          display: none;
+      }
+      .tablet {
