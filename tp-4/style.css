@@ -1,0 +1,55 @@
+@media (min-width: 400px) {
+    html body {
+      background-color: rgb(40,60,80);
+    }
+  }
+  @media (max-width: 800px) {
+    html h1 {
+      text-align: center;
+    }
+  }
+  @media (orientation: landscape) {
+    html article {
+      max-width: 50ch;
+    }
+  }
+  @media (min-height: 200px) {
+    html h1 {
+        background-color: rgb(40, 150, 30);
+    }
+  }
+  @media print {
+    html p {
+        font-family: serif;
+    }
+  }
+  @media (prefers-color-scheme: Light) {
+    html body {
+      background-color: #DDD;
+    }
+    html h1{
+      color: #111;
+    }
+  }
+  @media screen and(hover: none) {
+    html a {
+        background-color: #212;
+        padding: 2px 5px;
+    }
+  }
+  @media screen and (min-width: 800px) and (max-width: 900px) {
+    html img {
+        display:none;
+    }
+  }
+  @media screen and (min-width: 200px) and (max-width: 400px) {
+    html img {
+        height: 400px;
+        object-fit: cover;
+    }
+  }
+  @media screen and(resolution > 2dppx) {
+    html article {
+        background-color: #667;
+    }
+  }
