@@ -1,0 +1,22 @@
+.esconder {
+  line-height: 1em;
+  overflow-y: hidden;
+}
+
+@keyframes foco {
+  0% {
+    background-color: transparent;
+  }
+  25% {
+    background-color: #3437f2;
+  }
+  55% {
+    background-color: #3437f2bb;
+  }
+  75% {
+    background-color: #3437f259;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
