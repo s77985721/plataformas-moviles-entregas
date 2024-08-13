@@ -1,0 +1,48 @@
+.titulo{
+
+    text-align: center;
+
+}
+
+#primer-parrafo,p.importante,p.novelas,p.parrafo{
+
+ font-family: serif;
+
+}
+
+#contenedor #primer-parrafo{
+
+    background-color: #CEE;
+
+}
+
+em{
+
+    color: #933;
+
+}
+
+a,p.novelas a[href="https://es.wikipedia.org/wiki/El_Señor_de_los_Anillos"],p.novelas a[href="https://es.wikipedia.org/wiki/El_hobbit"]{
+
+    outline: 1px solid #333;
+
+}
+
+html body p.fuente.parrafo{
+  
+    opacity: 100%;
+
+}
+
+html p.fuente a[href="https://es.wikipedia.org/wiki/Gandalf"]{
+
+    color: #000;
+
+}
+
+.complicado{
+
+    color: #C62 !important;
+    font-weight: 800;
+
+}

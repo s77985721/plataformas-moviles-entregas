@@ -1,0 +1,104 @@
+/* Punto 1 */
+@media (min-width:400px){
+
+   html body{
+
+        background-color: rgb(40, 60, 80);
+
+    }
+
+}
+/* Punto 2 */
+@media (max-width:800px){
+
+    h1{
+
+        text-align: center;
+
+    }
+
+}
+/* Punto 3 */
+@media (orientation:landscape){
+
+    article{
+
+        max-width: 50ch;
+
+    }
+    
+}
+/* Punto 4 */
+@media (min-height:200px){
+
+    h1{
+        
+        background-color: #456945;
+
+    }
+
+}
+/* Punto 5 */
+@media print{
+
+    p{
+
+        font-family: serif;
+
+    }
+
+}
+/* Punto 6 */
+@media (prefers-color-scheme: light){
+
+   html body, h1{
+
+        background-color: #DDD;
+        color: #111;
+
+    }
+
+
+}
+/* Punto 7 */
+@media only screen and (hover: none) {
+
+    a{
+
+        background-color: #212;
+        padding: 2px 5px;
+
+    }
+    
+}
+/* Punto 8 */
+@media only screen and (min-width:800px) and (max-width:900px) {
+
+    body img{
+
+        display: none;
+
+    }
+
+}
+/* Punto 9 */
+@media only screen and (min-width:200px) and (max-width:400px) {
+
+    body img{
+
+        height: 400px;
+        object-fit: cover;
+
+    }
+
+}
+/* Punto 10 */
+@media only screen and (resolution > 2ddpx) {
+ 
+    article{
+
+        background-color: #667;
+
+    }
+
+}
